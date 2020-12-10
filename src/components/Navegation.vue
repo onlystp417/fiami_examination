@@ -1,23 +1,23 @@
 <template>
   <nav>
-      <li>
-        <div>
-          <img src="@/assets/images/aims.svg" alt="">
-        </div>
-        <div>任務</div>
-      </li>
-      <li>
-        <div><img src="@/assets/images/home.svg" alt=""></div>
-        <div>任務</div>
-      </li>
-      <li>
-        <div><img src="@/assets/images/star-vip.svg" alt=""></div>
-        <div>VIP</div>
-      </li>
-      <li>
-        <div><img src="@/assets/images/user.svg" alt=""></div>
-        <div>我的</div>
-      </li>
+    <li>
+      <div>
+        <img src="@/assets/images/aims.svg" alt="">
+      </div>
+      <div>任務</div>
+    </li>
+    <li>
+      <div><img src="@/assets/images/home.svg" alt=""></div>
+      <div>任務</div>
+    </li>
+    <li>
+      <div><img src="@/assets/images/star-vip.svg" alt=""></div>
+      <div>VIP</div>
+    </li>
+    <li>
+      <div><img src="@/assets/images/user.svg" alt=""></div>
+      <div>我的</div>
+    </li>
   </nav>
 </template>
 
