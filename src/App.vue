@@ -41,5 +41,6 @@ button {
 
 button:focus, button:active {
   outline: none;
+  color: #000;
 }
 </style>
