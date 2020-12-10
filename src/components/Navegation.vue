@@ -1,6 +1,5 @@
 <template>
   <nav>
-    <ul>
       <li>
         <div>
           <img src="@/assets/images/aims.svg" alt="">
@@ -19,7 +18,6 @@
         <div><img src="@/assets/images/user.svg" alt=""></div>
         <div>我的</div>
       </li>
-    </ul>
   </nav>
 </template>
 
@@ -37,27 +35,27 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 nav {
-  position: absolute;
+  background-color: #fff;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 10vh;
-}
-
-ul {
+  height: 60px;
   display: flex;
   justify-content: space-between;
   text-align: center;
   color: #717171;
   font-size: 12px;
-  padding-top: 15px;
+  align-content: center;
+  /* padding-top: 10px; */
 }
 
 li {
+  align-items: center;
   flex: 1 0 25%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 img {
